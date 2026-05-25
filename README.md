@@ -47,7 +47,7 @@ uvicorn main:app --reload
 
 ## Core Endpoints
 
-![API endpoints](assets/endpoints.png)
+![API endpoints](endpoints.png)
 
 - `GET /` - health-style landing page.
 - `GET /users` - list users from `me.json`.
