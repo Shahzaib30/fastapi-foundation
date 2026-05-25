@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-foundation"
+version = "0.1.0"
+description = "A professional FastAPI foundation with app routers, ML endpoints, and LangGraph workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.scripts]
+fastapi-foundation = "main:main"

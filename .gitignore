@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+
+# Artifacts
+models/
+artifacts/
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.bin
+*.pkl
+*.joblib
